@@ -1,0 +1,74 @@
+NLP MODEL COMPARISON REPORT
+==================================================
+
+EXECUTIVE SUMMARY
+--------------------
+Best Overall Performance (F1-Score): BERT-based Semantic Parsing
+F1-Score: 0.8804
+
+Fastest Model: Linked Open Data with RDF-based Embedding
+Avg Response Time: 0.0002s
+
+DETAILED RESULTS
+--------------------
+
+BERT-based Semantic Parsing:
+  Precision: 0.9976
+  Recall: 0.7878
+  F1-Score: 0.8804
+  NDCG: 0.9554
+  Avg Response Time: 0.0198s
+  Total Processing Time: 5.27s
+
+Word2Vec + Cosine Similarity:
+  Precision: 0.9974
+  Recall: 0.7876
+  F1-Score: 0.8802
+  NDCG: 0.9200
+  Avg Response Time: 0.0008s
+  Total Processing Time: 0.24s
+
+Linked Open Data with RDF-based Embedding:
+  Precision: 0.9973
+  Recall: 0.7876
+  F1-Score: 0.8801
+  NDCG: 0.9566
+  Avg Response Time: 0.0002s
+  Total Processing Time: 0.08s
+
+String Matching:
+  Precision: 0.9964
+  Recall: 0.7873
+  F1-Score: 0.8796
+  NDCG: 0.9464
+  Avg Response Time: 0.0002s
+  Total Processing Time: 0.09s
+
+Word Mover's Distance for Short Essay Evaluation:
+  Precision: 0.9964
+  Recall: 0.7873
+  F1-Score: 0.8796
+  NDCG: 0.9431
+  Avg Response Time: 0.0007s
+  Total Processing Time: 0.22s
+
+Sentiment Feature Modeling Based on Complaints:
+  Precision: 0.9964
+  Recall: 0.7873
+  F1-Score: 0.8796
+  NDCG: 0.9205
+  Avg Response Time: 0.0016s
+  Total Processing Time: 0.45s
+
+TF-IDF + Cosine Similarity:
+  Precision: 0.9962
+  Recall: 0.7871
+  F1-Score: 0.8794
+  NDCG: 0.9085
+  Avg Response Time: 0.0009s
+  Total Processing Time: 0.30s
+
+RECOMMENDATIONS
+--------------------
+• BERT-based Semantic Parsing shows excellent performance and is recommended for production use.
+• Linked Open Data with RDF-based Embedding offers excellent response times for real-time applications.
